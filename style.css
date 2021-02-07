@@ -5,45 +5,154 @@ font-family:monospace;
 font-size: 30px;
 }
 
-.container {
+h2 {
     display: flex;
-  flex-wrap: wrap;
-    color:azure;
-    flex-direction: row;
+  flex-wrap:wrap-reverse;
+    color:rgb(77, 77, 77);
+    flex-direction: column;
    justify-content: center;
    align-content: space-around white;
    size: 40cm;
    font-size: 30px;
-   font-family: cursive;
+   font-family: monospace;
    text-align: center;
    margin: 10px;
-   background-color: lightgray;
    padding: 60px 50px;
+
+}   
   
 
-
+.first .color1{
+    background-color: #bee5d3;
+   padding: 30px 30px;
+   color:grey;
+ 
+   
+}
+.first .color2{
+    background-color: #d3c0c0;
+    padding: 30px 30px;
+    color:whitesmoke;
+}
+.first .color3{
+    background-color: #8b5e83;
+    padding: 30px 30px;
+    color:whitesmoke;
+    
+}
+.first .color4{
+    background-color:#75a2b9;
+    padding: 30px 30px;
+    color:whitesmoke;
     
 }
 
-.color1{
-    background-color: #bee5d3;
+.second .color1{
+   background-color:#e7e6e1;
    padding: 30px 30px;
+   color:grey;
  
    
 }
 
-.color2{
-    background-color: #d3c0c0;
+.second .color2{
+    background-color:#f7f6e7;
     padding: 30px 30px;
+    color:grey;
 }
 
-.color3{
-    background-color: #8b5e83;
+.second .color3{
+    background-color: #f2a154;
     padding: 30px 30px;
+    color:whitesmoke;
     
 }
-.color4{
-    background-color:#75a2b9;
+.second .color4{
+    background-color: #314e52;
     padding: 30px 30px;
+    color:whitesmoke;
+    
+}
+
+.third .color1{
+    background-color:#ff577f;
+   padding: 30px 30px;
+   color:whitesmoke;
+ 
+   
+}
+
+.third .color2{
+    background-color: #ff884b;
+    padding: 30px 30px;
+    color:whitesmoke;
+}
+
+.third .color3{
+    background-color: #ffc764;
+    padding: 30px 30px;
+    color:whitesmoke;
+    
+}
+.third .color4{
+    background-color: #cdfffc;
+    padding: 30px 30px;
+    color:grey;
+    
+}
+
+
+.fourth .color1{
+    background-color:#295939;
+   padding: 30px 30px;
+   color:whitesmoke;
+ 
+   
+}
+
+.fourth .color2{
+    background-color: #e9b0df;
+    padding: 30px 30px;
+    color:whitesmoke;
+}
+
+.fourth .color3{
+    background-color:#adeecf;
+    padding: 30px 30px;
+    color:whitesmoke;
+    
+}
+.fourth .color4{
+    background-color: #e8efeb;
+    padding: 30px 30px;
+    color:grey;
+    
+}
+
+
+.fifth .color1{
+    background-color:#dddddd;
+   padding: 30px 30px;
+   color:grey;
+ 
+   
+}
+
+.fifth .color2{
+    background-color: #222831;
+    padding: 30px 30px;
+    color:whitesmoke;
+}
+
+.fifth .color3{
+    background-color:#30475e;
+    padding: 30px 30px;
+    color:whitesmoke;
+    
+}
+.fifth .color4{
+    background-color:#f05454;
+    padding: 30px 30px;
+    color:whitesmoke;
     
 }
