@@ -4,20 +4,33 @@ color: gray;
 font-family:monospace;
 font-size: 30px;
 }
-
-h2 {
-    display: flex;
-  flex-wrap:wrap-reverse;
+ 
+h2{ 
     color:rgb(77, 77, 77);
-    flex-direction: column;
-   justify-content: center;
-   align-content: space-around white;
-   size: 40cm;
+
+}
+
+ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: stretch;  
+    align-content: center;
+    flex-direction: row;
+
+
+    /*  
+    flex-wrap:wrap;
+    flex-direction: row;
+   justify-content: stretch;
+    size: 20cm;  */
+
+   color:rgb(77, 77, 77);
    font-size: 30px;
    font-family: monospace;
    text-align: center;
    margin: 10px;
    padding: 60px 50px;
+    list-style: none; 
 
 }   
   
