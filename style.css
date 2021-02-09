@@ -1,171 +1,144 @@
+
+/* todo o codigo sera resetado sem essas pre configuracoes. Asterisco=tudo. Box-sizing=bordar espreme o elemento */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 35px 30px;
+}   
+
 h1{
     text-align: center;
-color: gray;
-font-family:monospace;
-font-size: 30px;
+    color: gray;
+    font-family:monospace;
+    font-size: 40px;
+    margin: 15px;
 }
  
 h2{ 
     color:rgb(77, 77, 77);
-
+    font-size: 25px;
+    font-family: ;
 }
 
+
 ul {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: stretch;  
-    align-content: center;
-    flex-direction: row;
-
-
-    /*  
-    flex-wrap:wrap;
-    flex-direction: row;
-   justify-content: stretch;
-    size: 20cm;  */
-
-   color:rgb(77, 77, 77);
-   font-size: 30px;
-   font-family: monospace;
-   text-align: center;
-   margin: 10px;
-   padding: 60px 50px;
     list-style: none; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 50px;
+
+
+    color:rgb(77, 77, 77);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
 
 }   
   
+li.color-item{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:grey;
+    margin-top: 2px;;
+}
 
 .first .color1{
-    background-color: #bee5d3;
-   padding: 30px 30px;
-   color:grey;
- 
+    background-color: #bee5d3; 
    
 }
 .first .color2{
     background-color: #d3c0c0;
-    padding: 30px 30px;
     color:whitesmoke;
 }
 .first .color3{
     background-color: #8b5e83;
-    padding: 30px 30px;
     color:whitesmoke;
-    
 }
 .first .color4{
     background-color:#75a2b9;
-    padding: 30px 30px;
     color:whitesmoke;
-    
 }
 
 .second .color1{
    background-color:#e7e6e1;
-   padding: 30px 30px;
-   color:grey;
- 
-   
 }
 
 .second .color2{
     background-color:#f7f6e7;
-    padding: 30px 30px;
-    color:grey;
 }
 
 .second .color3{
     background-color: #f2a154;
-    padding: 30px 30px;
     color:whitesmoke;
-    
 }
 .second .color4{
     background-color: #314e52;
-    padding: 30px 30px;
     color:whitesmoke;
-    
 }
 
 .third .color1{
     background-color:#ff577f;
-   padding: 30px 30px;
-   color:whitesmoke;
- 
-   
+   color:whitesmoke;  
 }
 
 .third .color2{
     background-color: #ff884b;
-    padding: 30px 30px;
     color:whitesmoke;
 }
 
 .third .color3{
     background-color: #ffc764;
-    padding: 30px 30px;
     color:whitesmoke;
     
 }
 .third .color4{
     background-color: #cdfffc;
-    padding: 30px 30px;
-    color:grey;
-    
+    color:grey;   
 }
-
 
 .fourth .color1{
     background-color:#295939;
-   padding: 30px 30px;
-   color:whitesmoke;
- 
-   
+   color:whitesmoke;  
 }
 
 .fourth .color2{
     background-color: #e9b0df;
-    padding: 30px 30px;
     color:whitesmoke;
 }
 
 .fourth .color3{
     background-color:#adeecf;
-    padding: 30px 30px;
-    color:whitesmoke;
-    
+    color:whitesmoke;   
 }
 .fourth .color4{
-    background-color: #e8efeb;
-    padding: 30px 30px;
-    color:grey;
-    
+    background-color: #e8efeb;   
 }
 
 
 .fifth .color1{
     background-color:#dddddd;
-   padding: 30px 30px;
-   color:grey;
- 
-   
 }
 
 .fifth .color2{
     background-color: #222831;
-    padding: 30px 30px;
     color:whitesmoke;
 }
 
 .fifth .color3{
     background-color:#30475e;
-    padding: 30px 30px;
     color:whitesmoke;
     
 }
 .fifth .color4{
     background-color:#f05454;
-    padding: 30px 30px;
-    color:whitesmoke;
-    
+    color:whitesmoke;  
 }
